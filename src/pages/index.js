@@ -1,10 +1,12 @@
 import * as React from "react"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
+import Card from "../components/Card"
 
 export default function Home() {
   return (
     <div>
+      <Card></Card>
       <Navbar></Navbar>
         <section id='section-hero'>
           <h1 id='hero-text'>Every morning is a new opportunity.</h1>

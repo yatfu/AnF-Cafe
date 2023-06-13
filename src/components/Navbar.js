@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavbarComponent = () => {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <a href='#' class='hamburger'>
@@ -19,5 +19,3 @@ const NavbarComponent = () => {
     </nav>
   );
 };
-
-export default Navbar;

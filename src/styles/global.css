@@ -1,0 +1,18 @@
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/** CARD LAB */
+

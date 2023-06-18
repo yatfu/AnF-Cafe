@@ -1,16 +1,23 @@
 import React from 'react'
+import '../styles/card.css'
 
-export default function Card() {
+export default function Card(props) {
   return (
     <>
-    <div className='card'>
-      <h2 id='card-title'>
-        Something awesome
-      </h2>
-      <p id='card-body'>
-        Commodo Lorem commodo dolor fugiat dolor commodo culpa elit aliqua irure sit ullamco consectetur. Qui deserunt do eu ad consectetur officia est amet amet ex eiusmod anim. 
-      </p>
-    </div>
+      <div className='card'>
+        <img src={props.image} alt='coffee with strawberry waffles' className='card-image' />
+        <div className='card-overlay'></div>
+        <div className='card-content'>
+          <h2 id='card-title'>
+            {props.header}
+          </h2>
+          <p className='card-body'>
+            {props.subtext}
+          </p>
+        </div>
+      </div>
     </>
   );
 }
+
+//      <img src={Photo1} alt='cafe'></img>

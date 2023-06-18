@@ -1,12 +1,13 @@
 import React from 'react';
+import '../styles/navbar.css';
 
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <a href='#' class='hamburger'>
-        <span class='bar'></span>
-        <span class='bar'></span>
-        <span class='bar'></span>
+      <a href='#' className='hamburger'>
+        <span className='bar'></span>
+        <span className='bar'></span>
+        <span className='bar'></span>
       </a>
       <div className="nav-logo">AnF</div>
       <ul className="nav-links">

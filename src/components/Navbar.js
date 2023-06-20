@@ -1,22 +1,18 @@
 import React from 'react';
 import '../styles/navbar.css';
+import Hamburger from './Hamburger.js'
 
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <a href='#' className='hamburger'>
-        <span className='bar'></span>
-        <span className='bar'></span>
-        <span className='bar'></span>
-      </a>
       <div className="nav-logo">AnF</div>
       <ul className="nav-links">
-        <li>menu</li>
-        <li>location</li>
-        <li>about</li>
-        <li>order online</li>
+        <li><a href='#'>menu</a></li>
+        <li><a>location</a></li>
+        <li><a>about</a></li>
+        <li><a>order online</a></li>
       </ul>
-      <button className="nav-contact-button">hamburger</button>
+      <Hamburger />
     </nav>
   );
 };

@@ -5,15 +5,11 @@ export default function Card(props) {
   return (
     <>
       <div className='card'>
-        <img src={props.image} alt='coffee with strawberry waffles' className='card-image' />
+        <img src={props.image} alt='coffee with strawberry waffles' />
         <div className='card-overlay'></div>
         <div className='card-content'>
-          <h2 id='card-title'>
-            {props.header}
-          </h2>
-          <p className='card-body'>
-            {props.subtext}
-          </p>
+          <h2>{props.header}</h2>
+          <p>{props.subtext}</p>
         </div>
       </div>
     </>

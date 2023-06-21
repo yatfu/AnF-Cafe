@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+
 .navbar {
   background-color: white;
   height: 5rem;
-  padding: 0 10rem;
+  padding: 0 10%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links {
   margin: auto 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   gap: 2rem;
@@ -16,8 +20,19 @@
 .nav-links li {
   list-style-type: none;
 }
+
 .nav-links a {
   font-size: 1.2rem;
   color: black;
   text-decoration: none;
+}
+
+.nav-logo {
+  font-family: Cormorant, sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+.nav-logo span {
+  font-size: 1.5rem;
 }

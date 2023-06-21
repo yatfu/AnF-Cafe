@@ -18,8 +18,11 @@ export default function Home() {
         <section id='section-hero'>
           <img src={heroImage} />
           <div id='hero-overlay'></div>
-          <h1>Every morning is <span className='white-text'>a new opportunity.</span></h1>
-          <Link to='#' id='hero-button'>order online</Link>
+          <div id='hero-content'>
+            <h1>Every morning is <span className='white-text'>a new opportunity.</span></h1>
+            <Link to='#' id='hero-button'>order online</Link>
+          </div>
+
         </section>
         <section id='section-news'>
           <div id='news-cards'>

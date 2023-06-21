@@ -4,14 +4,8 @@
 
 body {
   margin: 0;
-  background-color: #fee;
+  background: linear-gradient(200deg, #fee 20%, #fde, #fee 80%);
   font-family: sans-serif;
-}
-
-#cards {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
 }
 
 /** CARD LAB */

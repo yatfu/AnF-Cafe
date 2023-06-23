@@ -7,7 +7,7 @@
 
 #section-hero h1 {
   color: #000;
-  font-size: 50px;
+  font-size: 4rem;
 }
 
 #section-hero img, #hero-overlay {
@@ -44,13 +44,13 @@
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
 .white-text {
   color: white;
-  text-shadow: 5px 5px 1px #f99;
+  text-shadow: 5px 5px 1px #f88;
 }
 
 /** NEWS SECTION */

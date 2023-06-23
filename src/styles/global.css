@@ -4,9 +4,8 @@
 
 body {
   margin: 0;
-  background: linear-gradient(200deg, #fee 20%, #fde, #fee 80%);
+  background: linear-gradient(200deg, #fee 20%, #fde, #eef 80%);
   font-family: sans-serif;
 }
 
 /** CARD LAB */
-

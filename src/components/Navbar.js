@@ -5,11 +5,10 @@ import Hamburger from './Hamburger.js'
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="nav-logo">A<span>&</span>F</h1>
+      <a href='#'><h1 className="nav-logo">A<span>&</span>F</h1></a>
       <ul className="nav-links">
         <li><a href='#'>menu</a></li>
-        <li><a href='#'>location</a></li>
-        <li><a href='#'>about</a></li>
+        <li><a href='#'>our story</a></li>
         <li><a href='#'>order online</a></li>
       </ul>
       <Hamburger />

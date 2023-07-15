@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;500');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
 *, *::before, *::after {
   box-sizing:border-box;
+  margin: 0;
 }
 
 body {
   margin: 0;
-  background: linear-gradient(200deg, #fee 20%, #fde, #eef 80%);
-  font-family: sans-serif;
+  background: #fdd;
+  font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, p {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
 /** CARD LAB */

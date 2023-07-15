@@ -1,21 +1,54 @@
+/** ELEMENTS */
+h1 {
+  color: #000;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Cormorant';
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/** CLASSES (temp, each component should be a react component)*/
+
+.section {
+  padding: 4rem 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 /** HERO SECTION */
 
 #section-hero {
   position: relative;
   height: 80vh;
+  display: flex;
+  align-items: center;
+
 }
 
-#section-hero h1 {
-  color: #000;
-  font-size: 4rem;
+.white-text {
+  color: white;
+  text-shadow: 5px 5px 0px #f88;
 }
 
 #section-hero img, #hero-overlay {
   position: absolute;
-  width: 60%; height: 60%;
+  width: 60%; height: 100%;
   min-width: 766px;
   min-height: 30rem;
-  top: 20%;
   right: 0;
 
   z-index: -1;
@@ -29,39 +62,84 @@
   background-color: rgba(255,255,255,0.2);
 }
 
-#hero-content {
+#hero-text {
+  padding-bottom: 2rem;
+}
+
+.ten-percent-padding {
+  padding-left: 10%; padding-right: 10%;
+/** 
   position: absolute;
   height: 100%;
   top: 40%;
   left: 10%;
+  margin-right: 10%;
+*/
 }
 
-#hero-button {
-
-  background-color: black;
-  color: white;
-
-  margin-top: 1rem;
-  padding: 1rem;
-  border-radius: 2rem;
-  font-size: 1.2rem;
-  text-decoration: none;
+.content h1 {
+  margin-bottom: 2rem;
 }
 
-.white-text {
-  color: white;
-  text-shadow: 5px 5px 1px #f88;
+.content h2 {
+  margin-bottom: 2rem;
+}
+
+.content p {
+  margin-bottom: 2rem;
 }
 
 /** NEWS SECTION */
 #section-news {
-  background-color: white;
-  padding: 
-  100px 0;
+
 }
 
 #news-cards {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+/** LOCATION SECTION */
+
+#section-location {
+  background-color: white;
+  padding: 3rem 20%;
+}
+
+.grid {
+  display: grid;
+}
+
+.five-three {
+  grid-template-columns: 5fr 3fr;
+  gap: 3rem;
+}
+
+.border-right {
+  border-right: 1px solid #fdd;
+}
+
+/** ABOUT SECTION */
+
+#section-about {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  background-color: white;
+}
+
+#about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/** RESPONSIVE */
+
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -5,9 +5,10 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>Careers, contact information, copyright ©, nutrition/allergens, </p>
+        <a></a>
       </div>
     </footer>
   );
 };
 
+// Careers, contact information, copyright ©, nutrition/allergens,

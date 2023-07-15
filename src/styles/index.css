@@ -117,7 +117,7 @@ h2 {
 }
 
 .border-right {
-  border-right: 1px solid #fdd;
+  border-right: 2px solid #fdd;
 }
 
 /** ABOUT SECTION */
@@ -134,7 +134,17 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
+  padding: 4rem;
+  box-shadow:
+  inset #fdd 0 0 0 5px,
+  inset #fff 0 0 0 10px,
+  inset #fdd 0 0 0 13px;
 }
+
+/** inset #fdd 0 0 0 3px,
+    inset rgba(0,0,0,0) 0 0 0 3px,
+    inset #fdd 0 0 0 1px;*/
 
 /** RESPONSIVE */
 

@@ -50,9 +50,6 @@ export default function Home() {
 
           </div>
         </section>
-        <section id='section-gallery'>
-
-        </section>
         <section id='section-about' className='section ten-percent-padding'>
           <div id="about-content">
             <h1>Our Story</h1>
@@ -60,6 +57,17 @@ export default function Home() {
             <Link to='#' className='button'>learn more</Link>
           </div>
           <img id='about-image' src={aboutUsPicture} />
+        </section>
+        <section id='section-gallery'>
+
+        </section>
+        <section id='section-careers'>
+          <div className='grid'>
+
+          </div>
+          <div className='careers-content'>
+            <h2>Follow us on Instagram for updates & limited offers!</h2>
+          </div>
         </section>
       </Layout>
     </div>

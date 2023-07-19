@@ -66,8 +66,7 @@ h2 {
   padding-bottom: 2rem;
 }
 
-.ten-percent-padding {
-  padding-left: 10%; padding-right: 10%;
+
 /** 
   position: absolute;
   height: 100%;
@@ -75,7 +74,6 @@ h2 {
   left: 10%;
   margin-right: 10%;
 */
-}
 
 .content h1 {
   margin-bottom: 2rem;

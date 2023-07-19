@@ -19,5 +19,21 @@ h1, h2, p {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
-/** CARD LAB */
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/** CLASSES */
+
+.centered {
+  text-align: center;
+}
+
+.ten-percent-padding {
+  padding-left: 10%; padding-right: 10%;
+
+}

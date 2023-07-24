@@ -49,9 +49,9 @@ export default function Home() {
         <section id='section-news' className='section'>
           <div id='news-cards' className="ten-percent-padding">
             <Card image={card1} header='Waffle Wednesdays!' subtext='Join us every Wednesday morning to savor the delightful flavors of our beloved waffles while enjoying significant discounts.'></Card>
-            <Card image={card2} header='New Items' subtext='Exciting news from A&F Cafe! We are thrilled to introduce an array of delectable new items that are sure to tantalize your taste buds and elevate your dining experience. Among these exciting additions, our star creation is the mouthwatering Turkey Pesto Panini.'>
+            <Card image={card2} header='New Items' subtext='Exciting news from A&F Cafe! We are thrilled to introduce an array of delectable new items. Among these exciting additions, our star creation is our Turkey Pesto Panini.'>
             </Card>
-            <Card image={card3} header='Limited Time Offers' subtext='Our limited-time offers are carefully curated by our talented culinary team, bringing you innovative and seasonal creations that tantalize your taste buds like never before. '></Card>
+            <Card image={card3} header='Limited Time Offers' subtext='Our limited-time offers are carefully curated by our culinary team, bringing you seasonal creations that tantalize your taste buds like never before. '></Card>
             <Card image={card4} header='AnF Rewards' subtext='Our loyalty program is designed to reward and appreciate our valued customers for their continued support and patronage. As a member of our loyalty program, you can enjoy a range of exclusive benefits and special perks.'></Card>
 
           </div>
@@ -68,7 +68,7 @@ export default function Home() {
           <div id='gallery-grid' className='grid ten-percent-padding'>
             <div className="grid-item">
               <a id='gallery-link' href='#' target='_blank'>
-                <h2>Follow us on Instagram!</h2>
+                <h2>Follow us on Instagram for updates and specials!</h2>
               </a>
             </div>
             <div className="grid-item">

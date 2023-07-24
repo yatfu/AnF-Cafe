@@ -163,14 +163,9 @@ p {
 }
 
 .grid-item {
-  padding: auto;
   background-color: white;
-  
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  vertical-align: bottom;
 }
 
 .grid-item>img {
@@ -186,6 +181,7 @@ p {
 
 #gallery-link> h2 {
   position: absolute;
+  width: 80%;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);

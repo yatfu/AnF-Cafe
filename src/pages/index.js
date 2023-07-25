@@ -68,7 +68,7 @@ export default function Home() {
           <div id='gallery-grid' className='grid ten-percent-padding'>
             <div className="grid-item">
               <a id='gallery-link' href='#' target='_blank'>
-                <h2>Follow us on Instagram for updates and specials!</h2>
+                <h2>Follow us on Instagram!</h2>
               </a>
             </div>
             <div className="grid-item">

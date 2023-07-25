@@ -36,3 +36,9 @@
 .nav-logo span {
   font-size: 1.5rem;
 }
+
+@media (max-width: 600px) {
+  .nav-link {
+    display: none;
+  }
+}

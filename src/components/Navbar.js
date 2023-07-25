@@ -7,9 +7,9 @@ export default function Navbar() {
     <nav className="navbar">
       <a href='/'><h1 className="nav-logo">A<span>&</span>F</h1></a>
       <ul className="nav-links">
-        <li><a href='#'>menu</a></li>
-        <li><a href='#'>our story</a></li>
-        <li><a href='#'>order online</a></li>
+        <li className='nav-link'><a href='#'>menu</a></li>
+        <li className='nav-link'><a href='#'>our story</a></li>
+        <li className='nav-link'><a href='#'>order online</a></li>
       </ul>
       <Hamburger />
     </nav>
